@@ -6,7 +6,7 @@
 function factorial(n) {
     let factorialValue = 1;
 
-    if (n > 2) {
+    if (n > 1) {
         while (n > 0) factorialValue *= n--;
     }
         
